@@ -21,7 +21,14 @@
     from full-width to very narrow. Adjust the $tablet and $phone cutoff points
     in /css/variables.scss until the header elements wrap at the right time.
     {%- endcomment -%}
-
+    <a
+      href="{{ '/' | relative_url }}"
+      class="nav_link"
+      data-tooltip="Home page"
+      data-placement="bottom"
+      data-delay="400"
+    >Home</a
+    >
     <a
       href="{{ 'research' | relative_url }}"
       class="nav_link"
@@ -30,6 +37,14 @@
       data-delay="400"
       >Research</a
     >
+            <a
+  href="{{ 'publications' | relative_url }}"
+  class="nav_link"
+  data-tooltip="Published research articles"
+  data-placement="bottom"
+  data-delay="400"
+>Publications</a
+               >
     <a
       href="{{ 'resources' | relative_url }}"
       class="nav_link"
@@ -46,22 +61,26 @@
       data-delay="400"
       >Team</a
     >
-    <a
-      href="{{ 'news' | relative_url }}"
-      class="nav_link"
-      data-tooltip="Recent happenings"
-      data-placement="bottom"
-      data-delay="400"
-      >News</a
-    >
-    <a
-      href="{{ 'blog' | relative_url }}"
-      class="nav_link"
-      data-tooltip="Musings and miscellany"
-      data-placement="bottom"
-      data-delay="400"
-      >Blog</a
-    >
+
+<a
+  href="{{ 'awards' | relative_url }}"
+  class="nav_link"
+  data-tooltip="Honors and recognitions"
+  data-placement="bottom"
+  data-delay="400"
+>
+  Awards
+</a>
+
+<a
+  href="{{ 'misc' | relative_url }}"
+  class="nav_link"
+  data-tooltip="Other academic activities"
+  data-placement="bottom"
+  data-delay="400"
+>
+   Miscellaneous
+</a>
     <a
       href="{{ 'contact' | relative_url }}"
       class="nav_link"
