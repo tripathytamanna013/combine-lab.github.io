@@ -2,7 +2,7 @@
 title: MOLECULAR ONCOLOGY LAB
 ---
 
-# <i class="fas fa-flask"></i>Home
+# <i class="fas fa-flask"></i>MOLECULAR ONCOLOGY LAB
 
 
 The COMBINE lab was created in the fall of 2014, when [Rob Patro](https://combine-lab.github.io/members/rob-patro.html) joined the [Department of Computer Science at Stony Brook University](https://www.cs.stonybrook.edu/).  In 2019, the lab moved to the [Department of Computer Science at the University of Maryland](https://www.cs.umd.edu/).  Our research interests span many areas of computational / algorithmic genomics, but our core focus is on the development of algorithms, data structures, and statistical inference methods for analyzing high-throughput sequencing data.
