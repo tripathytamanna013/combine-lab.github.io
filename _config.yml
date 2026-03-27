@@ -1,14 +1,15 @@
 # https://jekyllrb.com/docs/configuration/
 
 # site-wide variables
-title: COMBINE-lab # title of site, used in tab name and elsewhere
-email: rob@cs.umd.edu # default email
-google: Rob Patro # default name to search on Google Scholar
-github: COMBINE-lab # default GitHub user/org, without the @
-twitter: nomad421 # default Twitter handle, without the @
-#instagram: fakeinstagramhandle # default Instagram handle, without the @
-#youtube: fakeyoutubechannel # default YouTube channel handle
-
+title: Rayala Lab # title of site, used in tab name and elsewhere
+email: oncolab317@gmail.com # default email
+google: Suresh Kumar Rayala # default name to search on Google Scholar
+github: tripathytamanna013, PSAdimoolam # default GitHub user/org, without the @
+linkedin: your-linkedin-username
+orcid: 0000-0000-0000-0000
+researchgate: Your-Profile-Name
+wikipedia: Your_Page_Name
+irins: your-irins-id
 # base directory where site is hosted
 # set to "" if hosting at a custom domain, eg yoursite.com
 baseurl: "/"
