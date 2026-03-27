@@ -1,7 +1,7 @@
 # https://jekyllrb.com/docs/configuration/
 
 # site-wide variables
-title: MO Lab # title of site, used in tab name and elsewhere
+title: MO Lab | Molecular Oncology # title of site, used in tab name and elsewhere
 email: oncolab317@gmail.com # default email
 google: Suresh Kumar Rayala # default name to search on Google Scholar
 github: tripathytamanna013, PSAdimoolam # default GitHub user/org, without the @
