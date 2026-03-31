@@ -64,15 +64,16 @@
   Awards
 </a>
 
-<a
-  href="{{ 'misc' | relative_url }}"
-  class="nav_link"
-  data-tooltip="Other academic activities"
-  data-placement="bottom"
-  data-delay="400"
->
-   Miscellaneous
-</a>
+<div class="dropdown">
+  <span class="nav_link">Miscellaneous ▼</span>
+
+  <div class="dropdown-content">
+    <a href="{{ 'misc/media' | relative_url }}">Media Coverage</a>
+    <a href="{{ 'misc/funding' | relative_url }}">Funding Support</a>
+    <a href="{{ 'misc/facilities' | relative_url }}">Facilities</a>
+    <a href="{{ 'misc/gallery' | relative_url }}">Gallery</a>
+  </div>
+</div>
     <a
       href="{{ 'contact' | relative_url }}"
       class="nav_link"
