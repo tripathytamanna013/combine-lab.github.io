@@ -53,14 +53,14 @@
     <a href="{{ 'research/ongoing' | relative_url }}">Ongoing Projects</a>
   </div>
 </div>
-    <a
-      href="{{ 'team' | relative_url }}"
-      class="nav_link"
-      data-tooltip="About our team"
-      data-placement="bottom"
-      data-delay="400"
-      >Team</a
-    >
+<div class="dropdown">
+  <span class="nav_link">Team ▼</span>
+
+  <div class="dropdown-content">
+    <a href="{{ 'team/members' | relative_url }}">Lab Members</a>
+    <a href="{{ 'team/alumni' | relative_url }}">Lab Alumni</a>
+  </div>
+</div>
 
 <a
   href="{{ 'awards' | relative_url }}"
