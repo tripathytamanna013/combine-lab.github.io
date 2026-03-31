@@ -45,14 +45,19 @@
   data-delay="400"
 >Publications</a
                >
-    <a
-      href="{{ 'resources' | relative_url }}"
-      class="nav_link"
-      data-tooltip="Tools, datasets, and more"
-      data-placement="bottom"
-      data-delay="400"
-      >Resources</a
-    >
+<div class="dropdown">
+  <a
+    href="{{ 'research' | relative_url }}"
+    class="nav_link"
+  >
+    Research ▼
+  </a>
+
+  <div class="dropdown-content">
+    <a href="{{ 'research#major' | relative_url }}">Major Research</a>
+    <a href="{{ 'research#ongoing' | relative_url }}">Ongoing Projects</a>
+  </div>
+</div>
     <a
       href="{{ 'team' | relative_url }}"
       class="nav_link"
