@@ -104,7 +104,7 @@ header {
 }
 
 .dropdown-content a {
-  color: #000000;              /* DARK TEXT */
+  color: #000000 !important;   /* FORCE BLACK TEXT */
   padding: 12px 16px;
   display: block;
   text-decoration: none;
@@ -113,8 +113,8 @@ header {
 }
 
 .dropdown-content a:hover {
-  background-color: #eaf2f8;   /* soft blue hover */
-  color: #1a5276;              /* darker blue text */
+  background-color: #eaf2f8;
+  color: #1a5276 !important;
 }
 
 .dropdown:hover .dropdown-content {
