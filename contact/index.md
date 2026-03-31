@@ -13,6 +13,16 @@ title: Contact
   allowfullscreen=""
   loading="lazy">
 </iframe>
+<h2>📍 Location</h2>
+
+<iframe
+  src="PASTE-YOUR-GMAP-EMBED-LINK-HERE"
+  width="100%"
+  height="400"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy">
+</iframe>
 
 ## Email
 
