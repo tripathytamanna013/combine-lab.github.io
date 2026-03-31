@@ -29,15 +29,14 @@
       data-delay="400"
     >Home</a
     >
-  
-            <a
-  href="{{ 'publications' | relative_url }}"
-  class="nav_link"
-  data-tooltip="Published research articles"
-  data-placement="bottom"
-  data-delay="400"
->Publications</a
-               >
+<div class="dropdown">
+  <span class="nav_link">Publications ▼</span>
+
+  <div class="dropdown-content">
+    <a href="{{ 'publications/journals' | relative_url }}">Journal Publications</a>
+    <a href="{{ 'publications/books' | relative_url }}">Book Chapters</a>
+  </div>
+</div>
 <div class="dropdown">
   <span class="nav_link">Research ▼</span>
 
